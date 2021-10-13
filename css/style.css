@@ -5762,6 +5762,7 @@ li:not([class]):before {
 }
 .direction__wrap--mod .contacts__form--mod {
   max-width: 568px;
+  margin-top: 30px;
 }
 .direction__wrap--mod .contacts__form-fieldset {
   gap: 32px;
@@ -5896,9 +5897,10 @@ li:not([class]):before {
 .info__content h2 {
   font-size: 24px;
   line-height: 56px;
+  margin-bottom: 10px;
 }
 .info__content p {
-  margin-bottom: 12px;
+  margin-bottom: 17px;
 }
 .banner__wrap {
   background-color: #0749c8;
@@ -5919,6 +5921,7 @@ li:not([class]):before {
 }
 .info--mod {
   margin-bottom: 64px;
+  padding-top: 20px;
 }
 @media (max-width: 1170px) {
   .direction--mod .contacts__info-wrap {
@@ -5959,4 +5962,43 @@ li:not([class]):before {
     max-width: 100%;
     width: 100%;
   }
+}
+
+.direction--mod .contacts__info-hotline-phone {
+  font-weight: 800;
+}
+
+.contacts__info-hotline-desc--mod {
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.info--mod ul {
+  margin-bottom: 5px;
+}
+
+.info__banner--mod {
+  margin-top: 20px;
+}
+.info__banner .banner__wrap {
+  align-items: flex-start;
+}
+
+.info--mod .icon-offers {
+  width: 126px;
+  height: auto;
+}
+
+.info--mod .banner__wrap {
+  padding: 40px 47px 60px;
+}
+
+.info--mod .banner_sec--mod img {
+  width: 117px;
+}
+
+.info--mod .banner_sec--mod .banner__content {
+  margin-top: 12px;
 }
