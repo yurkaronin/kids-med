@@ -5620,7 +5620,7 @@ li:not([class]):before {
   align-items: center;
 }
 .big-custom-form .checkbox {
-  max-width: 540px;
+  max-width: 450px;
   margin: 0;
   margin-left: auto;
 }
