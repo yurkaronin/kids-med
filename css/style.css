@@ -6012,7 +6012,18 @@ li:not([class]):before {
     flex-direction: column-reverse;
     align-items: center;
   }
-  .info__banner .banner__content {
+  .banner_sec--mod .banner__content,
+  .info__banner--mod .banner__wrap {
     width: 100%;
+  }
+
+  .info__banner--mod .banner__desc {
+    padding: 0;
+  }
+  .info--mod .banner_sec--mod .banner__content {
+    margin-top: 0;
+  }
+  .info__banner--mod img {
+    margin-bottom: 0;
   }
 }
