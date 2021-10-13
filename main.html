@@ -1,0 +1,1863 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preload" href="fonts/Nunito/Nunito-Regular.ttf" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/Nunito/Nunito-SemiBold.ttf" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/Nunito/Nunito-Bold.ttf" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/Nunito/Nunito-ExtraBold.ttf" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/Arial/ArialRegular.ttf" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="/fonts/Arial/ArialBold.ttf" as="font" crossorigin="anonymous" />
+
+
+
+  <title>Кидс Мед - Главная страница</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/choices.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="docBody">
+  <header class="header">
+    <div class="container">
+      <div class="header__wrap">
+        <div class="header-top">
+          <div class="header__logo">
+            <a href="#" class="header__logo-wrap">
+
+              <svg class="icon icon-logo">
+                <use xlink:href="img/sprite.svg#logo"></use>
+              </svg>
+
+            </a>
+          </div>
+
+          <div class="header__burger" id="burgerMenu">
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+          </div>
+
+          <div class="header__buttons">
+            <a href="#" class="btn brn--primary header__btn">
+              <span>Вызвать врача на дом</span>
+            </a>
+
+            <a href="#" class="btn btn--white header__btn">
+              <span>Записаться к врачу</span>
+            </a>
+          </div>
+
+          <a href="tel:+78612069035" class="header__phone">
+            <div class="circle header__phone-icon">
+
+              <svg class="icon icon-phone">
+                <use xlink:href="img/sprite.svg#i-phone"></use>
+              </svg>
+
+            </div>
+
+            8 (861) 206-90-35
+          </a>
+
+          <div class="header__geo">
+
+            <svg class="icon icon-geo">
+              <use xlink:href="img/sprite.svg#i-geo"></use>
+            </svg>
+
+            <span class="header__geo-desc">Адреса в Краснодаре:</span>
+            <a href="javascript:void(0)" class="header__geo-map">Показать на карте</a>
+          </div>
+        </div>
+
+        <div class="header-bottom">
+          <div class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item header__nav-item--expanded">
+                <div class="header__nav-expanded-head">
+                  <a href="#" class="header__nav-link">О клинике</a>
+                  <div class="circle circle--sm header__nav-circle"></div>
+                </div>
+
+                <div class="header__nav-submenu">
+                  <ul class="header__nav-submenu-list">
+                    <li class="header__nav-submenu-item">
+                      <a href="#" class="header__nav-submenu-link">Вызов врача на дом</a>
+                    </li>
+                    <li class="header__nav-submenu-item">
+                      <a href="#" class="header__nav-submenu-link">Диагностика</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="header__nav-item header__nav-item--expanded">
+                <div class="header__nav-expanded-head">
+                  <a href="#" class="header__nav-link">Наши услуги</a>
+                  <div class="circle circle--sm header__nav-circle"></div>
+                </div>
+
+                <div class="header__nav-submenu">
+                  <ul class="header__nav-submenu-list">
+                    <li class="header__nav-submenu-item">
+                      <a href="#" class="header__nav-submenu-link">Вызов врача на дом</a>
+                    </li>
+                    <li class="header__nav-submenu-item">
+                      <a href="#" class="header__nav-submenu-link">Диагностика</a>
+                    </li>
+
+                    <li class="header__nav-submenu-item">
+                      <a href="#" class="header__nav-submenu-link">Лабораторные исследования</a>
+                    </li>
+                    <li class="header__nav-submenu-item">
+                      <a href="#" class="header__nav-submenu-link">Массаж и тейпирование</a>
+                    </li>
+                    <li class="header__nav-submenu-item">
+                      <a href="#" class="header__nav-submenu-link">Физиотерапия</a>
+                    </li>
+                    <li class="header__nav-submenu-item">
+                      <a href="#" class="header__nav-submenu-link">Услуги процедурного кабинета</a>
+                    </li>
+                    <li class="header__nav-submenu-item">
+                      <a href="#" class="header__nav-submenu-link">Оформление документов</a>
+                    </li>
+                    <li class="header__nav-submenu-item">
+                      <a href="#" class="header__nav-submenu-link">Сопровождение ДОУ</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Специалисты</a>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Цены</a>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Родителям</a>
+              </li>
+
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="header__search search-block">
+            <form class="search-block__form">
+              <div class="search-block__field">
+                <label class="field__label">
+                  <input type="search" class="field__input" placeholder="Поиск" />
+                </label>
+
+                <button type="submit" class="search-block__submit">
+
+                  <svg class="icon icon-search">
+                    <use xlink:href="img/sprite.svg#i-search"></use>
+                  </svg>
+
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="header-mob" id="headerMenu">
+    <div class="header-mob__wrap" id="menuContent">
+      <div class="header-mob__top">
+        <div class="header-mob__logo">
+          <a href="#" class="header-mob__logo-link">
+
+            <svg class="icon icon-logo">
+              <use xlink:href="img/sprite.svg#logo"></use>
+            </svg>
+
+          </a>
+        </div>
+
+        <div class="header-mob__close" id="menuClose">
+          <div class="header-mob__close-line"></div>
+          <div class="header-mob__close-line"></div>
+        </div>
+      </div>
+
+      <div class="header-mob__middle">
+        <ul class="header-mob__list">
+          <li class="header-mob__item header-mob__accordeon accordeon__wrap">
+            <div class="header-mob__accordeon-head accordeon__head">
+              <a href="#" class="header-mob__link">Услуги</a>
+
+              <svg class="header-mob__item-arrow accordeon__arrow">
+                <use xlink:href="img/arrow-brand.svg#arrow-brand"></use>
+              </svg>
+            </div>
+
+            <div class="header-mob__expanded accordeon__content">
+              <ul class="header-mob__expanded-list">
+                <li class="header-mob__expanded-item">
+                  <a href="#">Консультации специалистов</a>
+                  <ul class="header-mob__inner-list">
+                    <li class="header-mob__inner-item"><a href="#">Педиатр</a></li>
+                    <li class="header-mob__inner-item"><a href="#">Оториноларинголог</a></li>
+                    <li class="header-mob__inner-item"><a href="#">Невролог</a></li>
+                    <li class="header-mob__inner-item"><a href="#">Ортопед-травматолог</a></li>
+                    <li class="header-mob__inner-item"><a href="#">Аллерголог-иммунолог</a></li>
+                    <li class="header-mob__inner-item"><a href="#">Физиотерапевт</a></li>
+                  </ul>
+                </li>
+
+                <li class="header-mob__expanded-item">
+                  <a href="#">Вызов врача на дом</a>
+                </li>
+                <li class="header-mob__expanded-item">
+                  <a>Диагностика</a>
+                </li>
+
+                <li class="header-mob__expanded-item">
+                  <a>Лабораторные исследования</a>
+                </li>
+
+                <li class="header-mob__expanded-item">
+                  <a>Массаж и тейпирование</a>
+                </li>
+
+                <li class="header-mob__expanded-item">
+                  <a>Физиотерапия</a>
+                </li>
+
+                <li class="header-mob__expanded-item">
+                  <a>Услуги процедурного кабинета</a>
+                </li>
+
+                <li class="header-mob__expanded-item">
+                  <a>Оформление документов</a>
+                </li>
+
+                <li class="header-mob__expanded-item">
+                  <a>Сопровождение ДОУ</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="header-mob__item">
+            <a href="#" class="header-mob__link">О клинике</a>
+          </li>
+
+          <li class="header-mob__item">
+            <a href="#" class="header-mob__link">Специалисты</a>
+          </li>
+
+          <li class="header-mob__item">
+            <a href="#" class="header-mob__link">Цены</a>
+          </li>
+
+          <li class="header-mob__item">
+            <a href="#" class="header-mob__link">Родителям</a>
+          </li>
+
+          <li class="header-mob__item">
+            <a href="#" class="header-mob__link">Контакты</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="header-mob__bottom">
+        <a href="#" class="header-mob__phone">8 (861) 206-90-35</a>
+        <p class="header-mob__text">ул. Российская, 72/1 корпус 2 <br>
+          пр-т. Чекистов, 23 <br>
+          пр-т. им. К. Образцова, 6</p>
+        <div class="header-mob__socials">
+          <a href="#" class="icon-social">
+
+            <svg class="icon icon-social">
+              <use xlink:href="img/sprite.svg#inst"></use>
+            </svg>
+
+          </a>
+          <a href="#" class="icon-social">
+
+            <svg class="icon icon-social">
+              <use xlink:href="img/sprite.svg#fb"></use>
+            </svg>
+
+          </a>
+          <a href="#" class="icon-social">
+
+            <svg class="icon icon-social">
+              <use xlink:href="img/sprite.svg#vk"></use>
+            </svg>
+
+          </a>
+        </div>
+
+        <div class="header-mob__buttons">
+          <a href="#" class="btn brn--primary header__btn">
+            <span>Вызвать врача на дом</span>
+          </a>
+
+          <a href="#" class="btn btn--white header__btn">
+            <span>Записаться к врачу</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main>
+
+
+
+
+    <div class="bubbles" id="bubbles">
+      <div class="bubbles__wrap">
+
+
+        <svg class="bubble bubble-group-1" id="bubble-group-1">
+          <use xlink:href="img/sprite.svg#v-main-l"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-grey-1" id="bubble-grey-1">
+          <use xlink:href="img/sprite.svg#v-main-grey-3"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-blue-1" id="bubble-blue-1">
+          <use xlink:href="img/sprite.svg#v-main-blue"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-green-1" id="bubble-green-1">
+          <use xlink:href="img/sprite.svg#v-main-green"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-yellow-1" id="bubble-yellow-1">
+          <use xlink:href="img/sprite.svg#v-main-yellow"></use>
+        </svg>
+
+
+
+
+        <svg class="bubble bubble-group-2" id="bubble-group-2">
+          <use xlink:href="img/sprite.svg#v-main-r"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-grey-2" id="bubble-grey-2">
+          <use xlink:href="img/sprite.svg#v-main-grey"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-grey-3" id="bubble-grey-3">
+          <use xlink:href="img/sprite.svg#v-main-grey-2"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-violet-1" id="bubble-violet-1">
+          <use xlink:href="img/sprite.svg#v-main-violet"></use>
+        </svg>
+
+
+
+
+        <svg class="bubble bubble-purp" id="bubble-purp-1">
+          <use xlink:href="img/sprite.svg#v-purp"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-aqua" id="bubble-1">
+          <use xlink:href="img/sprite.svg#v-aqua"></use>
+        </svg>
+
+
+
+
+        <svg class="bubble bubble-grey-4" id="bubble-grey-4">
+          <use xlink:href="img/sprite.svg#v-main-grey-4"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-grey-5" id="bubble-grey-5">
+          <use xlink:href="img/sprite.svg#v-main-grey-5"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-yellow-2" id="bubble-yellow-2">
+          <use xlink:href="img/sprite.svg#v-main-yellow-2"></use>
+        </svg>
+
+
+
+
+        <svg class="bubble bubble-yellow-3" id="bubble-yellow-3">
+          <use xlink:href="img/sprite.svg#v-main-yellow-3"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-yellow-4" id="bubble-yellow-4">
+          <use xlink:href="img/sprite.svg#v-main-yellow-4"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-group-3" id="bubble-group-3">
+          <use xlink:href="img/sprite.svg#v-main-r-2"></use>
+        </svg>
+
+
+
+
+        <svg class="bubble bubble-grey-6" id="bubble-grey-6">
+          <use xlink:href="img/sprite.svg#v-main-grey-6"></use>
+        </svg>
+
+
+
+
+        <svg class="bubble bubble-grey-7" id="bubble-grey-7">
+          <use xlink:href="img/sprite.svg#v-main-grey-7"></use>
+        </svg>
+
+
+        <svg class="bubble bubble-blue-2" id="bubble-blue-2">
+          <use xlink:href="img/sprite.svg#v-main-blue-2"></use>
+        </svg>
+
+
+      </div>
+    </div>
+    <section class="first-screen">
+      <div class="container">
+        <div class="first-screen__wrap">
+          <div class="first-screen__slider-wrap">
+            <div class="swiper-container first-screen__slider">
+              <div class="swiper-wrapper first-screen__slider-wrapper">
+
+                <div class="swiper-slide first-screen__slider-slide">
+                  <div class="content-wrap">
+                    <div class="content-half">
+                      <div class="first-screen__content">
+                        <h1 class="title title-lg">Сеть современных детских клиник Kids' Med</h1>
+                        <p class="first-screen__text">Вещество, вследствие квантового характера явления, масштабирует газ. Зеркало непрерывно</p>
+                        <a href="#" class="link">Подробнее
+                          <div class="circle circle--sm link-circle"></div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="content-half">
+
+                      <picture class="picture-first-screen">
+                        <source srcset="img/girl-fs.webp" type="image/webp">
+                        <img src="img/girl-fs.png">
+                      </picture>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide first-screen__slider-slide">
+                  <div class="content-wrap">
+                    <div class="content-half">
+                      <div class="first-screen__content">
+                        <h1 class="title title-lg">Сеть современных детских клиник Kids' Med</h1>
+                        <p class="first-screen__text">Вещество, вследствие квантового характера явления, масштабирует газ. Зеркало непрерывно</p>
+                        <a href="#" class="link">Подробнее
+                          <div class="circle circle--sm link-circle"></div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="content-half">
+
+                      <picture class="picture-first-screen">
+                        <source srcset="img/girl-fs.webp" type="image/webp">
+                        <img src="img/girl-fs.png">
+                      </picture>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide first-screen__slider-slide">
+                  <div class="content-wrap">
+                    <div class="content-half">
+                      <div class="first-screen__content">
+                        <h1 class="title title-lg">Сеть современных детских клиник Kids' Med</h1>
+                        <p class="first-screen__text">Вещество, вследствие квантового характера явления, масштабирует газ. Зеркало непрерывно</p>
+                        <a href="#" class="link">Подробнее
+                          <div class="circle circle--sm link-circle"></div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="content-half">
+
+                      <picture class="picture-first-screen">
+                        <source srcset="img/girl-fs.webp" type="image/webp">
+                        <img src="img/girl-fs.png">
+                      </picture>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide first-screen__slider-slide">
+                  <div class="content-wrap">
+                    <div class="content-half">
+                      <div class="first-screen__content">
+                        <h1 class="title title-lg">Сеть современных детских клиник Kids' Med</h1>
+                        <p class="first-screen__text">Вещество, вследствие квантового характера явления, масштабирует газ. Зеркало непрерывно</p>
+                        <a href="#" class="link">Подробнее
+                          <div class="circle circle--sm link-circle"></div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="content-half">
+
+                      <picture class="picture-first-screen">
+                        <source srcset="img/girl-fs.webp" type="image/webp">
+                        <img src="img/girl-fs.png">
+                      </picture>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide first-screen__slider-slide">
+                  <div class="content-wrap">
+                    <div class="content-half">
+                      <div class="first-screen__content">
+                        <h1 class="title title-lg">Сеть современных детских клиник Kids' Med</h1>
+                        <p class="first-screen__text">Вещество, вследствие квантового характера явления, масштабирует газ. Зеркало непрерывно</p>
+                        <a href="#" class="link">Подробнее
+                          <div class="circle circle--sm link-circle"></div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="content-half">
+
+                      <picture class="picture-first-screen">
+                        <source srcset="img/girl-fs.webp" type="image/webp">
+                        <img src="img/girl-fs.png">
+                      </picture>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="swiper-button-prev slider-btn slider-btn--prev main-slider__btn--prev"></div>
+              <div class="swiper-button-next slider-btn slider-btn--next main-slider__btn--next"></div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="branch">
+      <div class="container">
+        <div class="branch__wrap">
+          <div class="tabs branch__tabs">
+            <ul class="tab-wrap branch__tabs-list">
+              <li id="tabButton1" data-id="tab1" class="tab-item branch__tabs-item branch__tabs-item active">
+                <div class="branch__tabs-item-wrap">
+
+                  <svg class="icon icon-branch">
+                    <use xlink:href="img/sprite.svg#i-kid"></use>
+                  </svg>
+
+                  <a href="javascript:void(0)" class="branch__tabs-link">Педиатрия</a>
+                </div>
+              </li>
+
+              <li id="tabButton2" data-id="tab2" class="tab-item branch__tabs-item branch__tabs-item">
+                <div class="branch__tabs-item-wrap">
+
+                  <svg class="icon icon-branch">
+                    <use xlink:href="img/sprite.svg#i-lor"></use>
+                  </svg>
+
+                  <a href="javascript:void(0)" class="branch__tabs-link">Оториноларингология</a>
+                </div>
+              </li>
+
+              <li id="tabButton3" data-id="tab3" class="tab-item branch__tabs-item branch__tabs-item">
+                <div class="branch__tabs-item-wrap">
+
+                  <svg class="icon icon-branch">
+                    <use xlink:href="img/sprite.svg#i-neuro"></use>
+                  </svg>
+
+                  <a href="javascript:void(0)" class="branch__tabs-link">Неврология</a>
+                </div>
+              </li>
+
+              <li id="tabButton4" data-id="tab4" class="tab-item branch__tabs-item branch__tabs-item">
+                <div class="branch__tabs-item-wrap">
+
+                  <svg class="icon icon-branch">
+                    <use xlink:href="img/sprite.svg#i-trauma"></use>
+                  </svg>
+
+                  <a href="javascript:void(0)" class="branch__tabs-link">Травматология и ортопедия</a>
+                </div>
+              </li>
+
+              <li id="tabButton5" data-id="tab5" class="tab-item branch__tabs-item branch__tabs-item">
+                <div class="branch__tabs-item-wrap">
+
+                  <svg class="icon icon-branch">
+                    <use xlink:href="img/sprite.svg#i-allergy"></use>
+                  </svg>
+
+                  <a href="javascript:void(0)" class="branch__tabs-link">Аллергология</a>
+                </div>
+              </li>
+
+              <li id="tabButton6" data-id="tab6" class="tab-item branch__tabs-item branch__tabs-item">
+                <div class="branch__tabs-item-wrap">
+
+                  <svg class="icon icon-branch">
+                    <use xlink:href="img/sprite.svg#i-electro"></use>
+                  </svg>
+
+                  <a href="javascript:void(0)" class="branch__tabs-link">Физиотерапия</a>
+                </div>
+              </li>
+            </ul>
+
+            <div class="tabs__slider">
+              <div class="swiper-container tabs__slider-swiper">
+                <div class="swiper-wrapper tabs__slider-wrapper">
+                  <div class="swiper-slide tabs__slider-slide">
+                    <div id="tabButtonMob1" data-id="tab1" class="tab-item branch__tabs-item active">
+                      <div class="branch__tabs-item-wrap">
+
+                        <svg class="icon icon-branch">
+                          <use xlink:href="img/sprite.svg#i-kid"></use>
+                        </svg>
+
+                        <a href="javascript:void(0)" class="branch__tabs-link">Педиатрия</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide tabs__slider-slide">
+                    <div id="tabButtonMob2" data-id="tab2" class="tab-item branch__tabs-item">
+                      <div class="branch__tabs-item-wrap">
+
+                        <svg class="icon icon-branch">
+                          <use xlink:href="img/sprite.svg#i-lor"></use>
+                        </svg>
+
+                        <a href="javascript:void(0)" class="branch__tabs-link">Оториноларингология</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide tabs__slider-slide">
+                    <div id="tabButtonMob3" data-id="tab3" class="tab-item branch__tabs-item">
+                      <div class="branch__tabs-item-wrap">
+
+                        <svg class="icon icon-branch">
+                          <use xlink:href="img/sprite.svg#i-neuro"></use>
+                        </svg>
+
+                        <a href="javascript:void(0)" class="branch__tabs-link">Неврология</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide tabs__slider-slide">
+                    <div id="tabButtonMob4" data-id="tab4" class="tab-item branch__tabs-item">
+                      <div class="branch__tabs-item-wrap">
+
+                        <svg class="icon icon-branch">
+                          <use xlink:href="img/sprite.svg#i-trauma"></use>
+                        </svg>
+
+                        <a href="javascript:void(0)" class="branch__tabs-link">Травматология и ортопедия</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide tabs__slider-slide">
+                    <div id="tabButtonMob5" data-id="tab5" class="tab-item branch__tabs-item">
+                      <div class="branch__tabs-item-wrap">
+
+                        <svg class="icon icon-branch">
+                          <use xlink:href="img/sprite.svg#i-allergy"></use>
+                        </svg>
+
+                        <a href="javascript:void(0)" class="branch__tabs-link">Аллергология</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide tabs__slider-slide">
+                    <div id="tabButtonMob6" data-id="tab6" class="tab-item branch__tabs-item">
+                      <div class="branch__tabs-item-wrap">
+
+                        <svg class="icon icon-branch">
+                          <use xlink:href="img/sprite.svg#i-electro"></use>
+                        </svg>
+
+                        <a href="javascript:void(0)" class="branch__tabs-link">Физиотерапия</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div id="tab1" class="branch__tabs-content">
+
+              <svg class="tab-bubble tab-bubble__left">
+                <use xlink:href="img/sprite.svg#yellow-left"></use>
+              </svg>
+
+
+              <svg class="tab-bubble tab-bubble__right">
+                <use xlink:href="img/sprite.svg#yellow-right"></use>
+              </svg>
+
+              <h2 class="branch__tabs-title">Чем поможет педиатр</h2>
+              <div class="branch__content-wrap">
+                <div class="branch__content-left">
+                  <div class="branch__content-half">
+                    <h4 class="branch__subtitle">Лечение заболеваний:</h4>
+                    <ul class="branch__list">
+                      <li>колики</li>
+                      <li>постоянный плач</li>
+                      <li>кашель и одышка</li>
+                      <li>продолжительный насморк</li>
+                      <li>сонливость и общая вялость</li>
+                      <li>повышенная температура</li>
+                      <li>рвота, диарея или запоры</li>
+                      <li>проблемы при мочеиспускании</li>
+                      <li>раздражение на коже</li>
+                      <li>головные боли и т. д.</li>
+                    </ul>
+                  </div>
+
+                  <div class="branch__content-half">
+                    <h4 class="branch__subtitle">Услуги:</h4>
+                    <ul class="branch__list">
+                      <li>осмотр новорожденных детей</li>
+                      <li>осмотр детей в течение первого года жизни</li>
+                      <li>осмотр малышей в возрасте старше года</li>
+                      <li>назначение первичного лечения</li>
+                      <li>ведение пациента</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="branch__content-right">
+                  <h4 class="branch__subtitle">Зачем нужен педиатр?</h4>
+                  <p class="branch__text">Педиатр нужен с самого первого дня жизни ребенка, он выполняет крайне важную и ответственную работу, потому должен обладать целым рядом важных качеств, включая терпеливость и любовь к маленьким детям. Кроме того, специалист обязан разбираться во всех видах болезней, с которыми он только может столкнуться в практике. В нашей клинике работают только самые грамотные и опытные педиатры. Они способны правильно оценить состояние здоровья малыша и сразу назначить необходимое лечение.</p>
+
+                  <div class="branch__links">
+                    <a href="#" class="btn btn--white branch__btn">
+                      <span>Подробнее</span>
+                    </a>
+
+                    <a href="#" class="btn btn--primary branch__btn">
+                      <span>Вызвать врача на дом</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="tab2" class="branch__tabs-content hidden">
+
+              <svg class="tab-bubble tab-bubble__left">
+                <use xlink:href="img/sprite.svg#yellow-left"></use>
+              </svg>
+
+
+              <svg class="tab-bubble tab-bubble__right">
+                <use xlink:href="img/sprite.svg#yellow-right"></use>
+              </svg>
+
+
+              <h2 class="branch__tabs-title">Чем поможет оториноларинголог</h2>
+              <div class="branch__content-wrap">
+                <div class="branch__content-left">
+                  <div class="branch__content-half">
+                    <h4 class="branch__subtitle">Лечение заболеваний:</h4>
+                    <ul class="branch__list">
+                      <li>колики</li>
+                      <li>постоянный плач</li>
+                      <li>кашель и одышка</li>
+                      <li>продолжительный насморк</li>
+                      <li>сонливость и общая вялость</li>
+                      <li>повышенная температура</li>
+                    </ul>
+                  </div>
+
+                  <div class="branch__content-half">
+                    <h4 class="branch__subtitle">Услуги:</h4>
+                    <ul class="branch__list">
+                      <li>осмотр новорожденных детей</li>
+                      <li>осмотр детей в течение первого года жизни</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="branch__content-right">
+                  <h4 class="branch__subtitle">Зачем нужен педиатр?</h4>
+                  <p class="branch__text">Педиатр нужен с самого первого дня жизни ребенка, он выполняет крайне важную и ответственную работу, потому должен обладать целым рядом важных качеств, включая терпеливость и любовь к маленьким детям. Кроме того, специалист обязан разбираться во всех видах болезней, с которыми он только может столкнуться в практике. В нашей клинике работают только самые грамотные и опытные педиатры. Они способны правильно оценить состояние здоровья малыша и сразу назначить необходимое лечение.</p>
+
+                  <div class="branch__links">
+                    <a href="#" class="btn btn--white branch__btn">
+                      <span>Подробнее</span>
+                    </a>
+
+                    <a href="#" class="btn btn--primary branch__btn">
+                      <span>Вызвать врача на дом</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="tab3" class="branch__tabs-content hidden">
+
+              <svg class="tab-bubble tab-bubble__left">
+                <use xlink:href="img/sprite.svg#yellow-left"></use>
+              </svg>
+
+
+              <svg class="tab-bubble tab-bubble__right">
+                <use xlink:href="img/sprite.svg#yellow-right"></use>
+              </svg>
+
+              <h2 class="branch__tabs-title">Чем поможет невролог</h2>
+              <div class="branch__content-wrap">
+                <div class="branch__content-left">
+                  <div class="branch__content-half">
+                    <h4 class="branch__subtitle">Лечение заболеваний:</h4>
+                    <ul class="branch__list">
+                      <li>колики</li>
+                      <li>постоянный плач</li>
+                      <li>кашель и одышка</li>
+                      <li>продолжительный насморк</li>
+                      <li>сонливость и общая вялость</li>
+                      <li>повышенная температура</li>
+                      <li>рвота, диарея или запоры</li>
+                      <li>проблемы при мочеиспускании</li>
+                    </ul>
+                  </div>
+
+                  <div class="branch__content-half">
+                    <h4 class="branch__subtitle">Услуги:</h4>
+                    <ul class="branch__list">
+                      <li>осмотр новорожденных детей</li>
+                      <li>назначение первичного лечения</li>
+                      <li>ведение пациента</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="branch__content-right">
+                  <h4 class="branch__subtitle">Зачем нужен педиатр?</h4>
+                  <p class="branch__text">В нашей клинике работают только самые грамотные и опытные педиатры. Они способны правильно оценить состояние здоровья малыша и сразу назначить необходимое лечение.</p>
+
+                  <div class="branch__links">
+                    <a href="#" class="btn btn--white branch__btn">
+                      <span>Подробнее</span>
+                    </a>
+
+                    <a href="#" class="btn btn--primary branch__btn">
+                      <span>Вызвать врача на дом</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="tab4" class="branch__tabs-content hidden">
+
+              <svg class="tab-bubble tab-bubble__left">
+                <use xlink:href="img/sprite.svg#yellow-left"></use>
+              </svg>
+
+
+              <svg class="tab-bubble tab-bubble__right">
+                <use xlink:href="img/sprite.svg#yellow-right"></use>
+              </svg>
+
+              <h2 class="branch__tabs-title">Чем поможет ортопед</h2>
+              <div class="branch__content-wrap">
+                <div class="branch__content-left">
+                  <div class="branch__content-half">
+                    <h4 class="branch__subtitle">Лечение заболеваний:</h4>
+                    <ul class="branch__list">
+                      <li>колики</li>
+                      <li>постоянный плач</li>
+                      <li>кашель и одышка</li>
+                      <li>продолжительный насморк</li>
+                      <li>сонливость и общая вялость</li>
+                      <li>повышенная температура</li>
+                      <li>рвота, диарея или запоры</li>
+                      <li>проблемы при мочеиспускании</li>
+                      <li>раздражение на коже</li>
+                      <li>головные боли и т. д.</li>
+                    </ul>
+                  </div>
+
+                  <div class="branch__content-half">
+                    <h4 class="branch__subtitle">Услуги:</h4>
+                    <ul class="branch__list">
+                      <li>осмотр новорожденных детей</li>
+                      <li>осмотр детей в течение первого года жизни</li>
+                      <li>осмотр малышей в возрасте старше года</li>
+                      <li>назначение первичного лечения</li>
+                      <li>ведение пациента</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="branch__content-right">
+                  <h4 class="branch__subtitle">Зачем нужен педиатр?</h4>
+                  <p class="branch__text">Педиатр нужен с самого первого дня жизни ребенка, он выполняет крайне важную и ответственную работу, потому должен обладать целым рядом важных качеств, включая терпеливость и любовь к маленьким детям. Кроме того, специалист обязан разбираться во всех видах болезней, с которыми он только может столкнуться в практике. В нашей клинике работают только самые грамотные и опытные педиатры. Они способны правильно оценить состояние здоровья малыша и сразу назначить необходимое лечение.</p>
+
+                  <div class="branch__links">
+                    <a href="#" class="btn btn--white branch__btn">
+                      <span>Подробнее</span>
+                    </a>
+
+                    <a href="#" class="btn btn--primary branch__btn">
+                      <span>Вызвать врача на дом</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="tab5" class="branch__tabs-content hidden">
+
+              <svg class="tab-bubble tab-bubble__left">
+                <use xlink:href="img/sprite.svg#yellow-left"></use>
+              </svg>
+
+
+              <svg class="tab-bubble tab-bubble__right">
+                <use xlink:href="img/sprite.svg#yellow-right"></use>
+              </svg>
+
+              <h2 class="branch__tabs-title">Чем поможет аллерголог</h2>
+              <div class="branch__content-wrap">
+                <div class="branch__content-left">
+                  <div class="branch__content-half">
+                    <h4 class="branch__subtitle">Лечение заболеваний:</h4>
+                    <ul class="branch__list">
+                      <li>колики</li>
+                      <li>постоянный плач</li>
+                      <li>кашель и одышка</li>
+                      <li>продолжительный насморк</li>
+                      <li>сонливость и общая вялость</li>
+                      <li>повышенная температура</li>
+                      <li>рвота, диарея или запоры</li>
+                      <li>проблемы при мочеиспускании</li>
+                      <li>раздражение на коже</li>
+                      <li>головные боли и т. д.</li>
+                    </ul>
+                  </div>
+
+                  <div class="branch__content-half">
+                    <h4 class="branch__subtitle">Услуги:</h4>
+                    <ul class="branch__list">
+                      <li>осмотр новорожденных детей</li>
+                      <li>осмотр детей в течение первого года жизни</li>
+                      <li>осмотр малышей в возрасте старше года</li>
+                      <li>назначение первичного лечения</li>
+                      <li>ведение пациента</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="branch__content-right">
+                  <h4 class="branch__subtitle">Зачем нужен педиатр?</h4>
+                  <p class="branch__text">Педиатр нужен с самого первого дня жизни ребенка, он выполняет крайне важную и ответственную работу, потому должен обладать целым рядом важных качеств, включая терпеливость и любовь к маленьким детям. Кроме того, специалист обязан разбираться во всех видах болезней, с которыми он только может столкнуться в практике. В нашей клинике работают только самые грамотные и опытные педиатры. Они способны правильно оценить состояние здоровья малыша и сразу назначить необходимое лечение.</p>
+
+                  <div class="branch__links">
+                    <a href="#" class="btn btn--white branch__btn">
+                      <span>Подробнее</span>
+                    </a>
+
+                    <a href="#" class="btn btn--primary branch__btn">
+                      <span>Вызвать врача на дом</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="tab6" class="branch__tabs-content hidden">
+
+              <svg class="tab-bubble tab-bubble__left">
+                <use xlink:href="img/sprite.svg#yellow-left"></use>
+              </svg>
+
+
+              <svg class="tab-bubble tab-bubble__right">
+                <use xlink:href="img/sprite.svg#yellow-right"></use>
+              </svg>
+
+              <h2 class="branch__tabs-title">Чем поможет физиотерапевт</h2>
+              <div class="branch__content-wrap">
+                <div class="branch__content-left">
+                  <div class="branch__content-half">
+                    <h4 class="branch__subtitle">Лечение заболеваний:</h4>
+                    <ul class="branch__list">
+                      <li>колики</li>
+                      <li>постоянный плач</li>
+                      <li>кашель и одышка</li>
+                      <li>продолжительный насморк</li>
+                      <li>сонливость и общая вялость</li>
+                      <li>повышенная температура</li>
+                      <li>рвота, диарея или запоры</li>
+                      <li>проблемы при мочеиспускании</li>
+                      <li>раздражение на коже</li>
+                      <li>головные боли и т. д.</li>
+                    </ul>
+                  </div>
+
+                  <div class="branch__content-half">
+                    <h4 class="branch__subtitle">Услуги:</h4>
+                    <ul class="branch__list">
+                      <li>осмотр новорожденных детей</li>
+                      <li>осмотр детей в течение первого года жизни</li>
+                      <li>осмотр малышей в возрасте старше года</li>
+                      <li>назначение первичного лечения</li>
+                      <li>ведение пациента</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="branch__content-right">
+                  <h4 class="branch__subtitle">Зачем нужен педиатр?</h4>
+                  <p class="branch__text">Педиатр нужен с самого первого дня жизни ребенка, он выполняет крайне важную и ответственную работу, потому должен обладать целым рядом важных качеств, включая терпеливость и любовь к маленьким детям. Кроме того, специалист обязан разбираться во всех видах болезней, с которыми он только может столкнуться в практике. В нашей клинике работают только самые грамотные и опытные педиатры. Они способны правильно оценить состояние здоровья малыша и сразу назначить необходимое лечение.</p>
+
+                  <div class="branch__links">
+                    <a href="#" class="btn btn--white branch__btn">
+                      <span>Подробнее</span>
+                    </a>
+
+                    <a href="#" class="btn btn--primary branch__btn">
+                      <span>Вызвать врача на дом</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="offers">
+      <div class="container">
+        <div class="offers__wrap">
+          <div class="offers__item">
+            <a href="#" class="offers__item-wrap">
+
+              <picture class="picture-features">
+                <source srcset="img/features-1.webp" type="image/webp">
+                <img src="img/features-1.png">
+              </picture>
+
+
+              <div class="offers__item-content">
+                <div class="offers__item-icon">!</div>
+
+                <h5 class="offers__item-title">Современное оборудование</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="offers__item">
+            <a href="#" class="offers__item-wrap">
+
+              <picture class="picture-features">
+                <source srcset="img/features-2.webp" type="image/webp">
+                <img src="img/features-2.png">
+              </picture>
+
+
+              <div class="offers__item-content">
+                <div class="offers__item-icon">!</div>
+
+                <h5 class="offers__item-title">Заботливые врачи, личный педиатр с рождения</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="offers__item">
+            <a href="#" class="offers__item-wrap">
+
+              <picture class="picture-features">
+                <source srcset="img/features-3.webp" type="image/webp">
+                <img src="img/features-3.png">
+              </picture>
+
+
+              <div class="offers__item-content">
+                <div class="offers__item-icon">!</div>
+
+                <h5 class="offers__item-title">Все мед. услуги в одной клинике без очередей</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="offers__item">
+            <a href="#" class="offers__item-wrap">
+              <div class="offers__item-content offers__item-content--flex">
+                <div class="offers__item-content-half">
+                  <h5 class="offers__item-title">Постоянная акция</h5>
+                  <p class="offers__item-desc">Подпишитесь на наш Instagram и получайте вечную скидку</p>
+                </div>
+
+                <div class="offers__item-content-half">
+                  <svg class="icon-offers">
+                    <use xlink:href="img/kid-big.svg#kid-big"></use>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="offers__item offers__item--big">
+            <div class="offers__slider">
+
+              <div class="offers__slider-decor">
+
+                <svg class="icon icon-offers-decor">
+                  <use xlink:href="img/sprite.svg#v-white"></use>
+                </svg>
+
+              </div>
+
+              <div class="swiper-container offers__slider-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="offers__slider-wrap">
+
+                      <div class="offers__slider-info">
+                        <span class="offers__slider-numb">217</span>
+                        <p class="offers__slider-desc">видов <br> исследований</p>
+                      </div>
+
+                      <h2 class="offers__slider-title">Все виды диагностики</h2>
+
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="offers__slider-wrap">
+
+                      <div class="offers__slider-info">
+                        <span class="offers__slider-numb">217</span>
+                        <p class="offers__slider-desc">видов <br> исследований</p>
+                      </div>
+
+                      <h2 class="offers__slider-title">Все виды диагностики</h2>
+
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="offers__slider-wrap">
+
+                      <div class="offers__slider-info">
+                        <span class="offers__slider-numb">217</span>
+                        <p class="offers__slider-desc">видов <br> исследований</p>
+                      </div>
+
+                      <h2 class="offers__slider-title">Все виды диагностики</h2>
+
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="offers__slider-wrap">
+
+                      <div class="offers__slider-info">
+                        <span class="offers__slider-numb">217</span>
+                        <p class="offers__slider-desc">видов <br> исследований</p>
+                      </div>
+
+                      <h2 class="offers__slider-title">Все виды диагностики</h2>
+
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="offers__slider-wrap">
+
+                      <div class="offers__slider-info">
+                        <span class="offers__slider-numb">217</span>
+                        <p class="offers__slider-desc">видов <br> исследований</p>
+                      </div>
+
+                      <h2 class="offers__slider-title">Все виды диагностики</h2>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-button-prev slider-btn slider-btn--prev offers__slider-btn offers__slider-btn--prev"></div>
+                <div class="swiper-button-next slider-btn slider-btn--next offers__slider-btn offers__slider-btn--next"></div>
+
+                <div class="swiper-pagination offers__slider-pagination"></div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="offers__item">
+            <a href="#" class="offers__item-wrap">
+              <div class="offers__item-content-grid">
+                <div class="offers__item-content-half">
+
+                  <svg class="icon icon-offers--sm">
+                    <use xlink:href="img/sprite.svg#logo-inst"></use>
+                  </svg>
+
+                  <h5 class="offers__item-title">Ты мне, я тебе</h5>
+                  <p class="offers__item-desc">Подпишитесь на наш Instagram и получайте вечную скидку</p>
+                </div>
+
+                <div class="offers__item-content-half">
+
+                  <picture class="picture-features">
+                    <source srcset="img/offer-i-bg.webp" type="image/webp">
+                    <img src="img/offer-i-bg.png">
+                  </picture>
+
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="about__wrap">
+          <div class="content-wrap about__content-wrap">
+            <div class="content-half">
+              <h2 class="about__title">Частные детские клиники Kids' Med</h2>
+              <p class="about__text">Излучение масштабирует сверхпроводник. Квантовое состояние перпендикулярно. Расслоение зеркально. Суспензия тормозит экситон, при этом дефект массы не образуется. Возмущение плотности ненаблюдаемо заряжает резонатор. Исследователями из разных лабораторий неоднократно наблюдалось, как электрон расщепляет барионный резонатор по мере распространения сигнала в среде с инверсной населенностью.</p>
+
+              <p class="about__text">Объект упруго восстанавливает вихрь независимо от расстояния до горизонта событий. Вихрь сжимает экситон. Сингулярность, на первый взгляд, экстремально сжимает расширяющийся экситон. Под воздействием переменного напряжения волна недетерминировано растягивает экситон без обмена зарядами или спинам.</p>
+            </div>
+
+            <div class="content-half">
+
+              <picture class="picture-about-kid">
+                <source srcset="img/boy-main.webp" type="image/webp">
+                <img src="img/boy-main.png">
+              </picture>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="specialist">
+      <div class="container">
+        <div class="specialist__wrap">
+          <h2 class="about__title">Специалисты</h2>
+
+          <div class="specialist__slider">
+            <div class="swiper-container specialist__slider-swiper">
+              <div class="swiper-wrapper specialist__slider-wrapper">
+                <div class="swiper-slide specialist__slider-slide">
+                  <a href="#" class="specialist__slider-wrap">
+
+                    <picture class="picture-specialist">
+                      <source srcset="img/specialist-1.webp" type="image/webp">
+                      <img src="img/specialist-1.png">
+                    </picture>
+
+
+                    <div class="specialist__slider-bottom">
+                      <h5 class="specialist__slider-name">Звягина Светлана Александровна</h5>
+                      <span class="specialist__slider-desc">Врач-педиатр инфекционист</span>
+                      <span class="specialist__slider-age">Стаж 29 лет</span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide specialist__slider-slide">
+                  <a href="#" class="specialist__slider-wrap">
+
+                    <picture class="picture-specialist">
+                      <source srcset="img/specialist-3.webp" type="image/webp">
+                      <img src="img/specialist-3.png">
+                    </picture>
+
+
+                    <div class="specialist__slider-bottom">
+                      <h5 class="specialist__slider-name">Звягина Светлана Александровна</h5>
+                      <span class="specialist__slider-desc">Врач-педиатр инфекционист</span>
+                      <span class="specialist__slider-age">Стаж 29 лет</span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide specialist__slider-slide">
+                  <a href="#" class="specialist__slider-wrap">
+
+                    <picture class="picture-specialist">
+                      <source srcset="img/specialist-3.webp" type="image/webp">
+                      <img src="img/specialist-3.png">
+                    </picture>
+
+
+                    <div class="specialist__slider-bottom">
+                      <h5 class="specialist__slider-name">Звягина Светлана Александровна</h5>
+                      <span class="specialist__slider-desc">Врач-педиатр инфекционист</span>
+                      <span class="specialist__slider-age">Стаж 29 лет</span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide specialist__slider-slide">
+                  <a href="#" class="specialist__slider-wrap">
+
+                    <picture class="picture-specialist">
+                      <source srcset="img/specialist-4.webp" type="image/webp">
+                      <img src="img/specialist-4.png">
+                    </picture>
+
+
+                    <div class="specialist__slider-bottom">
+                      <h5 class="specialist__slider-name">Звягина Светлана Александровна</h5>
+                      <span class="specialist__slider-desc">Врач-педиатр инфекционист</span>
+                      <span class="specialist__slider-age">Стаж 29 лет</span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide specialist__slider-slide">
+                  <a href="#" class="specialist__slider-wrap">
+
+                    <picture class="picture-specialist">
+                      <source srcset="img/specialist-3.webp" type="image/webp">
+                      <img src="img/specialist-3.png">
+                    </picture>
+
+
+                    <div class="specialist__slider-bottom">
+                      <h5 class="specialist__slider-name">Звягина Светлана Александровна</h5>
+                      <span class="specialist__slider-desc">Врач-педиатр инфекционист</span>
+                      <span class="specialist__slider-age">Стаж 29 лет</span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide specialist__slider-slide">
+                  <a href="#" class="specialist__slider-wrap">
+
+                    <picture class="picture-specialist">
+                      <source srcset="img/specialist-3.webp" type="image/webp">
+                      <img src="img/specialist-3.png">
+                    </picture>
+
+
+                    <div class="specialist__slider-bottom">
+                      <h5 class="specialist__slider-name">Звягина Светлана Александровна</h5>
+                      <span class="specialist__slider-desc">Врач-педиатр инфекционист</span>
+                      <span class="specialist__slider-age">Стаж 29 лет</span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide specialist__slider-slide">
+                  <a href="#" class="specialist__slider-wrap">
+
+                    <picture class="picture-specialist">
+                      <source srcset="img/specialist-3.webp" type="image/webp">
+                      <img src="img/specialist-3.png">
+                    </picture>
+
+
+                    <div class="specialist__slider-bottom">
+                      <h5 class="specialist__slider-name">Звягина Светлана Александровна</h5>
+                      <span class="specialist__slider-desc">Врач-педиатр инфекционист</span>
+                      <span class="specialist__slider-age">Стаж 29 лет</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="specialist__slider-buttons">
+              <div class="swiper-button-prev slider-btn slider-btn--prev offers__slider-btn specialist__slider-btn--prev"></div>
+              <div class="swiper-button-next slider-btn slider-btn--next offers__slider-btn specialist__slider-btn--next"></div>
+            </div>
+          </div>
+
+          <a href="#" class="btn btn--primary specialist__btn">
+            <span>Все специалисты</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="features__wrap">
+          <div class="offers__item">
+            <a href="#" class="offers__item-wrap">
+
+              <picture class="picture-features">
+                <source srcset="img/features-4.webp" type="image/webp">
+                <img src="img/features-4.png">
+              </picture>
+
+
+              <div class="offers__item-content">
+                <div class="offers__item-icon">!</div>
+
+                <h5 class="offers__item-title">3 отделения в Краснодаре</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="offers__item">
+            <a href="#" class="offers__item-wrap">
+
+              <picture class="picture-features">
+                <source srcset="img/features-5.webp" type="image/webp">
+                <img src="img/features-5.png">
+              </picture>
+
+
+              <div class="offers__item-content">
+                <div class="offers__item-icon">!</div>
+
+                <h5 class="offers__item-title">Более 200 000 пациентов</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="offers__item">
+            <a href="#" class="offers__item-wrap">
+
+              <picture class="picture-features">
+                <source srcset="img/features-6.webp" type="image/webp">
+                <img src="img/features-6.png">
+              </picture>
+
+
+              <div class="offers__item-content">
+                <div class="offers__item-icon">!</div>
+
+                <h5 class="offers__item-title">7 лет работаем для ваших детей
+                </h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonials__wrap">
+          <h2 class="testimonials__title">Наши рейтинги на независимых сервисах</h2>
+
+          <div class="testimonials__list">
+            <div class="testimonials__item">
+              <div class="testimonials__item-wrap">
+
+                <svg class="icon icon-testimonials-pd">
+                  <use xlink:href="img/sprite.svg#logo-pd"></use>
+                </svg>
+
+                <div class="testimonials__rating">
+                  <span class="testimonials__rating-numb">4.0</span>
+                  <div class="testimonials__rating-stars">
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star star--empty">
+                      <use xlink:href="img/sprite.svg#star-empty"></use>
+                    </svg>
+
+                  </div>
+                </div>
+
+                <div class="testimonials__calls">
+                  <span class="testimonials__calls-all">102 отзыва</span>
+                  <a href="#" class="testimonials__calls-link">Читать отзывы</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonials__item">
+              <div class="testimonials__item-wrap">
+
+                <svg class="icon icon-testimonials-google">
+                  <use xlink:href="img/sprite.svg#logo-google"></use>
+                </svg>
+
+                <div class="testimonials__rating">
+                  <span class="testimonials__rating-numb">5.0</span>
+                  <div class="testimonials__rating-stars">
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+                  </div>
+                </div>
+
+                <div class="testimonials__calls">
+                  <span class="testimonials__calls-all">6 отзывов</span>
+                  <a href="#" class="testimonials__calls-link">Читать отзывы</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonials__item">
+              <div class="testimonials__item-wrap">
+
+                <svg class="icon icon-testimonials-ya">
+                  <use xlink:href="img/sprite.svg#logo-ya"></use>
+                </svg>
+
+                <div class="testimonials__rating">
+                  <span class="testimonials__rating-numb">4.25</span>
+                  <div class="testimonials__rating-stars">
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star star--empty">
+                      <use xlink:href="img/sprite.svg#star-empty"></use>
+                    </svg>
+
+                  </div>
+                </div>
+
+                <div class="testimonials__calls">
+                  <span class="testimonials__calls-all">19 отзывов</span>
+                  <a href="#" class="testimonials__calls-link">Читать отзывы</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonials__item">
+              <div class="testimonials__item-wrap">
+
+                <svg class="icon icon-testimonials-sber">
+                  <use xlink:href="img/sprite.svg#logo-sber"></use>
+                </svg>
+
+                <div class="testimonials__rating">
+                  <span class="testimonials__rating-numb">5.0</span>
+                  <div class="testimonials__rating-stars">
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+
+                  </div>
+                </div>
+
+                <div class="testimonials__calls">
+                  <span class="testimonials__calls-all">6 отзывов</span>
+                  <a href="#" class="testimonials__calls-link">Читать отзывы</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <a href="#" class="phone-call">
+      <svg class="icon-call">
+        <use xlink:href="img/call.svg#call"></use>
+      </svg>
+    </a>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="footer__logo-wrap">
+
+              <svg class="icon icon-logo">
+                <use xlink:href="img/sprite.svg#logo"></use>
+              </svg>
+
+            </a>
+          </div>
+
+          <p class="footer__text">© ООО «Детский Центр Здоровья Кидс МЕД», все права защищены, 2021</p>
+          <p class="footer__text">Лицензия ЛО-23-01-014304 от 30.01.2020 г.</p>
+          <a href="#">Политика конфиденциальности</a>
+
+        </div>
+
+        <div class="footer__col">
+          <a href="tel:+78612069035" class="footer__phone">8 (861) 206-90-35</a>
+          <p class="footer__address">ул. Российская, 72/1 корпус 2 <br>
+            пр-т. Чекистов, 23 <br>
+            пр-т. им. К. Образцова, 6</p>
+
+          <div class="footer__socials">
+            <a href="#" class="icon-social">
+
+              <svg class="icon icon-social">
+                <use xlink:href="img/sprite.svg#inst"></use>
+              </svg>
+
+            </a>
+            <a href="#" class="icon-social">
+
+              <svg class="icon icon-social">
+                <use xlink:href="img/sprite.svg#fb"></use>
+              </svg>
+
+            </a>
+            <a href="#" class="icon-social">
+
+              <svg class="icon icon-social">
+                <use xlink:href="img/sprite.svg#vk"></use>
+              </svg>
+
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h5 class="footer__title">Услуги</h5>
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Консультации специалистов</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link footer__nav-link--sub">Педиатр</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link footer__nav-link--sub">Оториноларинголог</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link footer__nav-link--sub">Невролог</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link footer__nav-link--sub">Ортопед-травматолог</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link footer__nav-link--sub">Аллерголог-иммунолог</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link footer__nav-link--sub">Физиотерапевт</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Вызов врача на дом</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Диагностика</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Лабораторные исследования</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Массаж и тейпирование</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Физиотерапия</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Услуги процедурного кабинета</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Оформление документов</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Сопровождение ДОУ</a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">О клинике</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Специалисты</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Цены</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Родителям</a>
+            </li>
+
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__dev">
+          <a href="#" class="circle footer__dev-circle">
+            <svg class="icon icon-vg">
+              <use xlink:href="img/sprite.svg#very-good"></use>
+            </svg>
+          </a>
+          <a href="#" class="footer__dev-link">Создание сайта</a>
+          <span class="footer__dev-vg">VeryGood</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+  <script src="js/gsap.min.js"></script>
+  <script src="js/ScrollTrigger.min.js"></script>
+  <script src="js/ScrollToPlugin.min.js"></script>
+  <script src="js/SmoothScroll.min.js"></script>
+  <script src="js/imask.min.js"></script>
+  <script src="js/DModal.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/choices.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/parallax.js"></script>
+</body>
+
+</html>
