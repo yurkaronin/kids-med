@@ -6006,3 +6006,13 @@ li:not([class]):before {
 .info--mod .banner_sec--mod .banner__content {
   margin-top: 12px;
 }
+
+@media (max-width: 400px) {
+  .info__banner--mod .banner__wrap {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .info__banner .banner__content {
+    width: 100%;
+  }
+}
